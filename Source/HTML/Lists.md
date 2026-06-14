@@ -16,23 +16,47 @@
 
 ##### Examples:
 
+A simple list with bullets
 ```
 <ul style="list-style-type:circle">
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ul>
+```
 
-<ul style="list-style-type:disc">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
+A bullet list inside another list
 
-<ul style="list-style-type:square">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+```
+<ul>
+  <li>Coffe</li>
+  <li>Tea
+    <ul>
+      <li>Green Tea</li>
+      <li>Black Tea</li>
+    </ul>
+  </li>
+  <li>Macha</li>
 </ul>
 ```
 
+Complex list
+
+```
+<ul>
+  <li>Coffe</li>
+  <li>Tea
+    <ul>
+      <li>Green Tea</li>
+      <li>Black Tea
+        <ul>
+          <li>China</li>
+          <li>Africa</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Macha</li>
+</ul>
+```
+#
