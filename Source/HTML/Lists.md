@@ -60,3 +60,8 @@ Complex list
 </ul>
 ```
 #
+#### CSS Sources
+
+```list-style:``` Use to modify lists style, to remove bullets or anything else, use <strong>none</strong> value.
+
+``` text-decoration: ``` Use to modify text deco, to remove links ```<a>``` underline, use value <strong>none</strong>.
